@@ -14,7 +14,6 @@ public class Generator {
 		String login = reader.readLine();
 		if (login != null)
 		{
-			
 			System.out.println("Длина пароля:");
 			Random r = new Random();
 			Integer t = Integer.parseInt(reader.readLine());
@@ -28,11 +27,7 @@ public class Generator {
 					ASCI[i] = alpha.charAt(r.nextInt(160));
 				}
 				System.out.println(ASCI);
-			}
-		
-		
-			
-			
+			}	
 		}
 		
 	}
