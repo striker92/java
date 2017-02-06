@@ -10,9 +10,6 @@ public class Calendar {
 		LocalDate localDate = LocalDate.of(year, month, 1);
 		DayOfWeek weekday = localDate.getDayOfWeek();
 		int value = weekday.getValue();
-	//	System.out.println();
-	//	System.out.println(localDate.getDayOfWeek());
-	//	System.out.println(localDate.plusDays(1));
 		int[] days = {0, 31 ,28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };	
 		int[] mas = new int[42];
 		int count = 0;
@@ -45,8 +42,7 @@ public class Calendar {
 					 System.out.print ("\n");
 					 N=0;
 				 }
-		}		 
-					 
+		}		 			 
 	return mas;
 	}
 
